@@ -1,0 +1,304 @@
+@import url(//db.onlinewebfonts.com/c/bbb7c4137dd0a8ed250b3194871f69df?family=Visby+CF+Heavy);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'OpenSans', sans-serif;
+}
+
+body{
+    background: gray;
+}
+
+.container{
+    width: 80%;
+    height: 1500px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.left-section{
+    width: 375px;
+    height: 100%;
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.right-section{
+    width: 815px;
+    height: 100%;
+    background-color: #ffffff;
+}
+
+img{
+    width: 155px;
+    height: 170px;
+    display: block;
+    margin: 70px auto 30px auto;
+}
+
+.all-left{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 0.5px ;
+}
+
+.infos{
+    display: block;
+    margin: 0 auto;
+    font-size: 15px;
+    color: #e4e4e4;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+
+.infos ul li i{
+    padding-right: 0.8rem;
+    font-size: 0.8rem;
+}
+
+.infos ul{
+    line-height: 30px;
+}
+
+.mobilite{
+    line-height: 20px;
+}
+
+.malentendant{
+    line-height: 20px;
+}
+
+.language{
+    margin-top: 60px;
+    font-weight: 600;
+}
+
+.h-languages{
+    font-size: 17px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-family: 'Visby CF', sans-serif;
+}
+
+.progress-bar{
+    width: 70%;
+    height: 6px;
+    background-color: #9b9b9b;
+    border-radius: 1px;
+}
+
+.progress-fr{
+    width: 100%;
+    height: 6px;
+    background-color: #ffffff;
+    border-radius: 1px;
+}
+
+.language ul li{
+    padding: 5px 0;
+}
+
+.language ul li p{
+    font-size: 15px;
+    font-weight: 700;
+    font-family: "Open Sans";
+    margin-bottom: 8px;
+}
+
+
+.progress-en{
+    width: 60%;
+    height: 6px;
+    background-color: #ffffff;
+    border-radius: 1px;
+}
+
+.h-interets{
+    font-size: 17px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-family: 'Visby CF', sans-serif;
+    margin-top: 50px;
+}
+
+.interets ul li{
+    padding: 8px 0;
+    font-weight: 700;
+    font-family: "Open Sans";
+    font-size: 13px;
+    line-height: 10px;
+}
+
+.h-contact{
+    font-size: 17px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-family: 'Visby CF', sans-serif;
+    margin-top: 50px;
+}
+
+.contact ul li{
+    padding: 8px 0.8rem 8px 0;
+    font-weight: 700;
+    font-family: "Open Sans";
+    line-height: 8px;
+}
+
+.contact ul li a{
+    font-size: 13px;
+    color: #e4e4e4;
+    text-decoration: none;
+}
+
+.all-right{
+    width: 80%;
+    height: 100%;
+    margin: 70px auto 0 auto;
+    font-family: 'Visby CF', sans-serif;
+}
+
+.nom-poste{
+    margin-bottom: 100px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+.nom{
+    font-size: 22px;
+    color: #222222;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.poste{
+    font-size: 22px;
+    color: #2babe2;
+    font-weight: 500;
+}
+
+.h-competences{
+    font-size: 20px;
+    color: #2babe2;
+    margin-bottom: 20px;
+}
+
+.h-competences ul li{
+    margin-bottom: 20px;
+}
+ 
+.competences ul li p{
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+ .competences ul li .progress-bar{
+     width: 50%;
+     background-color: #9b9b9b;
+     margin-bottom: 18px;
+     border-radius: 1px;
+ }
+
+ .progress-html{
+    width: 80%;
+    height: 6px;
+    background-color: #2babe2;
+    border-radius: 1px;
+ }
+
+ .progress-css{
+    width: 70%;
+    height: 6px;
+    background-color: #2babe2;
+    border-radius: 1px;
+ }
+
+ .progress-sql{
+    width: 40%;
+    height: 6px;
+    background-color: #2babe2;
+    border-radius: 1px;
+ }
+
+ .progress-csharp{
+    width: 40%;
+    height: 6px;
+    background-color: #2babe2;
+    border-radius: 1px;
+ }
+
+ .progress-php{
+    width: 40%;
+    height: 6px;
+    background-color: #2babe2;
+    border-radius: 1px;
+ }
+
+ .h-experiences-formations{
+    font-size: 20px;
+    color: #2babe2;
+    margin-bottom: 20px;
+}
+
+.all-experiences-formations{
+    border-left: 2px solid #000000;
+    margin-left: 5px;
+    padding-left: 30px;
+}
+
+.all-right div div h3::before{
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #000000;
+    transform: translate(-35px, 10px);
+}
+
+.experiences{
+    margin-top: 50px;
+}
+
+.experience{
+    line-height: 30px;
+}
+
+.h-nomdeposte{
+    font-size: 16px;
+}
+
+.exp-date{
+    color: #777777;
+}
+
+.experience ul li{
+    line-height: 22px;
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.company{
+    color: #2babe2;
+}
+
+.city-company{
+    color: #777777;
+}
+
+.formations{
+    margin-top: 50px;
+}
+
+.formation{
+    padding: 10px 0;
+    line-height: 20px;
+}
+
+.formation h3{
+    padding-bottom: 5px;
+    font-size: 16px;
+}

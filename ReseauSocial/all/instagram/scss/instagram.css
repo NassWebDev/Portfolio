@@ -1,0 +1,217 @@
+/*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
+html, body, p, ol, ul, li, dl, dt, dd, blockquote, figure, fieldset, legend, textarea, pre, iframe, hr, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+button, input, select {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+img, video {
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td, th {
+  padding: 0;
+}
+
+body {
+  background-color: rgb(250, 250, 250);
+}
+
+.container {
+  width: 1050px;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container .up {
+  width: 100%;
+  height: 80%;
+}
+.container .up .formlogin {
+  width: 350px;
+  height: 395px;
+  background-color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 22px;
+  margin-top: 36px;
+  border: 1px solid rgb(219, 219, 219);
+}
+.container .up .formlogin img {
+  padding: 0 100px;
+  margin-top: 20px;
+}
+.container .up .formlogin .mail, .container .up .formlogin .btn-login, .container .up .formlogin .mdp {
+  width: 268px;
+  height: 38px;
+  margin: 0px 41px;
+  margin-top: 40px;
+  font-size: 12px;
+  padding-left: 7px;
+  border: 1px solid rgb(219, 219, 219);
+  border-radius: 3px;
+  background-color: rgb(250, 250, 250);
+}
+.container .up .formlogin .mail:focus, .container .up .formlogin .btn-login, .container .up .formlogin .mdp:focus{
+  outline: none;
+  border: 1px solid rgb(107, 99, 99);
+}
+.container .up .formlogin .mdp {
+  margin-top: 7px;
+}
+.container .up .formlogin .btn-login {
+  height: 30px;
+  margin-top: 15px;
+  border: 1px solid transparent;
+  background-color: rgb(178, 223, 252);
+  color: #fff;
+  font-weight: bold;
+  font-size: 13px;
+}
+.container .up .formlogin .ou {
+  margin: 0px 41px;
+  text-align: center;
+  margin-top: 20px;
+  font-family: sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  display: flex;
+  color: rgb(142, 142, 142);
+}
+.container .up .formlogin .ou::before, .container .up .formlogin .ou::after {
+  content: "";
+  border-bottom: 1px solid rgb(219, 219, 219);
+  margin: auto;
+  width: 106px;
+  transform: translateX(10px);
+}
+.container .up .formlogin .ou::before {
+  transform: translateX(-10px);
+}
+.container .up .formlogin .fa-facebook-square {
+  color: rgb(56, 81, 133);
+  margin-top: 30px;
+  margin-left: 75px;
+  display: flex;
+}
+.container .up .formlogin .fa-facebook-square p {
+  margin-left: 8px;
+  font-family: sans-serif;
+  font-size: 14px;
+  transform: translateY(1px);
+  font-weight: 700;
+  cursor: pointer;
+}
+.container .up .formlogin .forgot {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 12px;
+  margin-top: 23px;
+  color: #00376b;
+  cursor: pointer;
+}
+.container .up .pasdecompte {
+  width: 350px;
+  height: 63px;
+  background-color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  border: 1px solid rgb(219, 219, 219);
+}
+.container .up .pasdecompte p {
+  text-align: center;
+  padding: 25px 0;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: lighter;
+}
+.container .up .pasdecompte .inscription {
+  color: rgb(0, 149, 246);
+  font-weight: bold;
+  cursor: pointer;
+}
+.container .up .download {
+  width: 350px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  font-family: sans-serif;
+  font-size: 14px;
+  text-align: center;
+}
+.container .up .download .dl {
+  margin-top: 18px;
+}
+.container .up .download .dl img {
+  height: 40px;
+  margin: 0 2px;
+  cursor: pointer;
+}
+.container .down {
+  margin-top: 10px;
+  margin-left: 18px;
+  color: rgb(142, 142, 142);
+}
+.container .down .first-line, .container .down .second-line {
+  width: 100%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container .down .first-line p, .container .down .second-line p {
+  align-items: center;
+  padding: 10px 8px;
+  font-size: 12px;
+  font-family: sans-serif;
+}
+.container .down .second-line {
+  width: 30%;
+  padding-left: 30px;
+  margin-top: 1px;
+}
+.container .down .second-line .fr {
+  display: flex;
+}
+.container .down .second-line .fr .fleche {
+  transform: translate(-2px, 9px);
+}
+.container .down .second-line .fr .fleche .fleche1 {
+  width: 7px;
+  height: 7px;
+  transition: 0.5s;
+  float: left;
+  box-shadow: -1px 1px 0 rgb(142, 142, 142);
+  transform: rotate(-45deg);
+}/*# sourceMappingURL=instagram.css.map */

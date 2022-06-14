@@ -1,0 +1,219 @@
+// @import "libs/reset.scss";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    outline: none;
+}
+
+body{
+    background-color: #242d34;
+}
+
+.container{
+    width: 600px;
+    height: 650px;
+    background-color: #000;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 52px;
+    border-radius: 15px;
+    color: #fff;
+
+    .center{
+        width: 100%;
+        height: 100%;
+        padding-top: 10px;
+        
+        .first-line{
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+
+            .img{
+                margin-left: auto;
+                margin-right: auto;
+                transform: translateX(-8px);
+            }
+
+            .x{
+                transform: translate(17px, 7px);
+            }
+            
+
+        }
+
+        .bienvenue{
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 30px;
+
+            h1{
+                font-family: sans-serif;
+                font-size: 31px;
+                font-weight: bold;
+            }
+        }
+        
+        .login-container{
+            background-color: #000;
+            display: flex;
+            flex-direction: column;
+            margin: 8px auto;
+            
+
+            .google{
+                width: 300px;
+                height: 40px;
+                background-color: #fff;
+                color: #000;
+                margin: 0 auto;
+                display: flex;
+                padding: 10px 0;
+                font-weight: bold;
+                font-size: 14px;
+                font-family: "Open Sans",arial,sans-serif;
+                border-radius: 30px;
+                margin-top: 25px;
+                margin-bottom: -1px;
+                cursor: pointer;
+
+                img{
+                    width: 18px;
+                    height: 18px;
+                    transform: translate(50px, 3px);
+                }
+
+                p{
+                    width: auto;
+                    height: auto;
+                    margin-left: auto;
+                    margin-right: auto;
+                    transform: translateY(5px);
+                }
+
+                &:hover{
+                    background-color: #d7dbdc;
+                }
+            }
+
+            .apple{
+                @extend .google;
+
+                img{
+                    transform: translate(55px, 3px);
+                }
+            }
+        }
+        .ou{
+            width: 300px;
+            height: 20px;
+            font-family: sans-serif;
+            display: flex;
+            margin: 15px;
+            justify-content: center;
+            margin-left: 140px;
+
+            &::after, &::before{
+                content: "";
+                width: 128px;
+                border-bottom: 1px solid #333639;
+                margin-left: auto;
+                transform: translateY(-10px);
+            }
+
+            &::before{
+                margin-right: auto;
+
+            }
+
+        }
+        .divmail{
+            margin-top: -5px;
+            display: flex;
+            justify-content: center;
+
+            .mail{
+                width: 300px;
+                height: 58px;
+                color: #333639;
+                border: 1px solid #333639;
+                text-overflow: ellipsis;
+                font-family: sans-serif;
+                font-size: 16px;
+                padding: 0 9px;
+                letter-spacing: 0.3px;
+                background-color: transparent;
+                border-radius: 3px;
+
+                &:focus{
+                    outline: none;
+                    border: 1px solid #1d9bf0;
+                    caret-color: #1d9bf0;
+                }
+            }
+        }
+
+        .connexion{
+            width: 300px;
+            height: 36px;
+            background-color: #fff;
+            color: #000;
+            margin: 0 auto;
+            display: flex;
+            padding: 8px 0;
+            font-weight: bold;
+            font-size: 14px;
+            font-family: "Open Sans",arial,sans-serif;
+            border-radius: 30px;
+            margin-top: 25px;
+            margin-bottom: -1px;
+            cursor: pointer;
+
+            p{
+                margin-left: auto;
+                margin-right: auto;
+                transform: translateY(2px);
+            }
+
+            &:hover{
+                background-color: #d7dbdc;
+            }
+        }
+
+        .forgot{
+            @extend .connexion;
+            border: 1px solid #536471;
+            background-color: transparent;
+            color: #fff;
+
+            &:hover{
+                background-color: transparent;
+            }
+        }
+
+        .inscription{
+            font-family: sans-serif;
+            font-size: 14px;
+            color: #4a4e51;
+
+            p{
+                text-align: center;
+                margin-top: 55px;
+
+                a{
+                    color: #1d9bf0;
+                    text-decoration: none;
+                    
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,169 @@
+/*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
+html, body, p, ol, ul, li, dl, dt, dd, blockquote, figure, fieldset, legend, textarea, pre, iframe, hr, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+button, input, select {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+img, video {
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td, th {
+  padding: 0;
+}
+
+body {
+  background-color: rgb(240, 242, 245);
+}
+
+.container {
+  width: 1000px;
+  margin: 180px 265px;
+  display: flex;
+}
+.container .left-part {
+  width: 50%;
+  font-size: 26px;
+  font-family: sans-serif;
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+.container .left-part img {
+  width: 300px;
+  margin-left: -25px;
+  margin-bottom: -10px;
+}
+.container .left-part .second-line {
+  padding-left: 2px;
+}
+.container .right-part {
+  width: 50%;
+  height: 500px;
+  margin-top: -95px;
+  margin-left: 45px;
+}
+.container .right-part .form {
+  height: 80%;
+  padding: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container .right-part .form .formlogin {
+  width: 100%;
+  border: 1px solid transparent;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0px 1px 10px rgb(192, 192, 192);
+}
+.container .right-part .form .formlogin .mail, .container .right-part .form .formlogin .mdp {
+  margin-bottom: 10px;
+}
+.container .right-part .form .formlogin .mail .input, .container .right-part .form .formlogin .mdp .input {
+  width: 90%;
+  margin-left: 20px;
+  height: 50px;
+  border-radius: 7px;
+  font-size: 16px;
+  padding-left: 10px;
+  color: rgb(147, 153, 156);
+  border: 1px solid rgb(221, 223, 226);
+  letter-spacing: 0.3px;
+}
+.container .right-part .form .formlogin .mail .input:focus, .container .right-part .form .formlogin .mdp .input:focus {
+  outline: none;
+  opacity: 0.5;
+  border: 1px solid rgb(20, 84, 167);
+  box-shadow: 0px 1px 10px rgb(24, 119, 242);
+  caret-color: rgb(24, 119, 242);
+}
+.container .right-part .form .formlogin .button, .container .right-part .form .formlogin .button2 {
+  width: 90%;
+  margin-left: 20px;
+  height: 50px;
+  border-radius: 7px;
+  font-size: 18px;
+  font-weight: bold;
+  padding-left: 10px;
+  color: #fff;
+  background-color: rgb(24, 119, 242);
+  border: 1px solid transparent;
+}
+.container .right-part .form .formlogin .button:hover, .container .right-part .form .formlogin .button2:hover {
+  cursor: pointer;
+  background-color: rgb(22, 111, 229);
+}
+.container .right-part .form .formlogin .forgot {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  margin-top: 15px;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 14px;
+  border-bottom: 1px solid rgb(218, 221, 225);
+  padding-bottom: 20px;
+}
+.container .right-part .form .formlogin .forgot .forgot2 {
+  text-decoration: none;
+  color: rgb(24, 119, 242);
+}
+.container .right-part .form .formlogin .forgot .forgot2:hover {
+  text-decoration: underline;
+}
+.container .right-part .form .formlogin .button2 {
+  width: 60%;
+  margin-left: 80px;
+  margin-top: 30px;
+  background-color: rgb(66, 183, 42);
+}
+.container .right-part .form .formlogin .button2:hover {
+  background-color: rgb(54, 164, 32);
+}
+.container .right-part .form .create {
+  width: 100%;
+  font-family: sans-serif;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 30px;
+}
+.container .right-part .form .create .creer {
+  font-weight: bold;
+  color: #000;
+  text-decoration: none;
+}
+.container .right-part .form .create .creer:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=facebook.css.map */

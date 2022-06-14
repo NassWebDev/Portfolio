@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-decoration: none;
+  outline: none;
+}
+
+body {
+  background-color: #fff;
+  height: 100vh;
+}
+
+.container {
+  width: auto;
+  height: auto;
+  display: flex;
+  gap: 0 20px;
+  justify-content: center;
+  padding: 20vh 0;
+}
+.container .facebook, .container .twitter, .container .instagram {
+  width: 105px;
+  height: 105px;
+  border: 1px solid transparent;
+  box-shadow: 0px 0px 10px rgb(140, 135, 135);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+.container .facebook img, .container .twitter img, .container .instagram img {
+  background-color: #fff;
+}
+.container .instagram {
+  margin-right: -20px;
+}/*# sourceMappingURL=all.css.map */

@@ -1,0 +1,203 @@
+/*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
+html, body, p, ol, ul, li, dl, dt, dd, blockquote, figure, fieldset, legend, textarea, pre, iframe, hr, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+button, input, select {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+img, video {
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td, th {
+  padding: 0;
+}
+
+body {
+  background-color: #242d34;
+}
+
+.container {
+  width: 600px;
+  height: 650px;
+  background-color: #000;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 52px;
+  border-radius: 15px;
+  color: #fff;
+}
+.container .center {
+  width: 100%;
+  height: 100%;
+  padding-top: 10px;
+}
+.container .center .first-line {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+.container .center .first-line .img {
+  margin-left: auto;
+  margin-right: auto;
+  transform: translateX(-8px);
+}
+.container .center .first-line .x {
+  width: 18px;
+  height: 18px;
+  transform: translate(17px, 7px);
+}
+.container .center .bienvenue {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 32px;
+}
+.container .center .bienvenue h1 {
+  font-family: sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+.container .center .logincontainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.container .center .logincontainer .google, .container .center .logincontainer .apple {
+  width: 300px;
+  height: 40px;
+  background-color: #fff;
+  display: flex;
+  color: #000;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 0;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 14px;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  font-weight: bold;
+}
+.container .center .logincontainer .google img, .container .center .logincontainer .apple img {
+  width: 18px;
+  height: 18px;
+  transform: translateX(62px);
+}
+.container .center .logincontainer .google p, .container .center .logincontainer .apple p {
+  width: auto;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container .center .logincontainer .apple {
+  margin-top: 25px;
+}
+.container .center .logincontainer .apple img {
+  transform: translateX(65px);
+}
+.container .center .ou {
+  width: 300px;
+  height: 20px;
+  text-align: center;
+  font-size: 17px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  gap: 0 10px;
+  margin-top: 15px;
+  font-family: sans-serif;
+}
+.container .center .ou .line {
+  width: 130px;
+  height: 1px;
+  background-color: #333639;
+}
+.container .center .inscription {
+  margin-top: 9px;
+  display: flex;
+}
+.container .center .inscription p {
+  width: 300px;
+  height: 36px;
+  background-color: #fff;
+  color: #000;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 13px;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 15px;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  font-weight: bold;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.container .center .pol {
+  width: 50%;
+  font-family: sans-serif;
+  font-size: 13px;
+  line-height: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 12px;
+  color: #64686d;
+}
+.container .center .pol a {
+  text-decoration: none;
+  color: #1d9bf0;
+}
+.container .center .pol a:hover {
+  text-decoration: underline;
+}
+.container .center .connexion {
+  width: 50%;
+  font-family: sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 15px;
+  color: #64686d;
+  margin-top: 40px;
+  line-height: 20px;
+}
+.container .center .connexion a {
+  text-decoration: none;
+  color: #1d9bf0;
+}
+.container .center .connexion a:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=twittersignup.css.map */

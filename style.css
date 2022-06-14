@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+
+body{
+    background-color: #000;
+    display: flex;
+    font-family: 'monserrat', sans-serif;
+}
+
+.left-part{
+    width: 500px;
+    height: 100vh;
+    background-color: #000;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    text-align: center;
+    position: fixed;
+    color: #fff;
+}
+
+.left-part2{
+    width: 500px;
+    height: 100%;
+    padding: 20px 0;
+    border-right: 1px solid #404040;
+}
+
+.left-part img{
+    width: 200px;
+    height: 200px;
+    border: 5px solid #fff;
+    border-radius: 50%;
+}
+
+.nomposte{
+    margin-top: 20px;
+}
+
+.nav{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    font-size: 20px;
+    display: flex;
+    flex-flow: column;
+    color: #fff;
+}
+
+.nav .button{
+    padding: 20px 0;
+    color: #fff;
+    transition: transform 0.3s ease-in-out;
+}
+
+.button:hover{
+    transform: scale(1.1);
+    background-color: rgb(17, 17, 17);
+}
+
+.right-part{
+    height: 100vh;
+    padding-left: 500px;
+}
+
+.accueil{
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    padding-left: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 40px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.accueil h3{
+    font-size: 20px;
+}
+
+.accueil .nom a{
+    color: grey;
+}
+
+.propos{
+    height: 100vh;
+    padding: 50px 50px;
+    color: #fff;
+}
+
+.h-propos{
+    text-align: center;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #404040;
+}
+
+.presentation{
+    margin-top: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 10px;
+}
+
+.first-p{
+    padding-bottom: 20px;
+}
+
+.second-p{
+    line-height: 25px;
+    padding-bottom: 20px;
+}
+
+
+.infos{
+    display: flex;
+}
+
+.infos2{
+    font-size: 15px;
+    line-height: 25px;
+    margin-top: 20px;
+}
+
+.btn{
+    width: 200px;
+    height: 40px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: color 0.5s;
+    transition: background-color 0.5s;
+}
+
+.btn:hover{
+    color: #fff;
+    background-color: #141414;
+    border: 1px solid transparent;
+}
+
+.parcours{
+    height: 100vh;
+    padding: 50px 70px;
+    color: #fff;
+}
+
+.all-parcours{
+    display: flex;
+}
+
+.h-formations-experiences{
+    text-align: center;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #404040;
+}
+
+.all-formations{
+    margin-top: 40px;
+    font-size: 15px;
+}
+
+.all-formations h1{
+    margin-bottom: 20px;
+}
+
+.formations{
+    width: 410px;
+    padding-left: 50px;
+    border-left: 1px solid #404040;
+}
+
+.formation{
+    padding-bottom: 20px;
+    line-height: 25px;
+}
+
+.h-formation::before{
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #fff;
+    transform: translateX(-57px);
+}
+
+
+
+.all-experiences{
+    margin-top: 40px;
+    margin-left: 50px;
+    font-size: 15px;
+}
+
+.all-experiences h1{
+    margin-bottom: 20px;
+}
+
+.experiences{
+    width: 410px;
+    padding-left: 50px;
+    border-left: 1px solid #404040;
+}
+
+.experience{
+    padding-bottom: 20px;
+    line-height: 25px;
+}
+
+.h-nomdeposte::before{
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #fff;
+    transform: translateX(-57px);
+}
+
+.projet{
+    padding: 50px 70px;
+    color: #fff;
+}
+
+.projets h1{
+    text-align: center;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #404040;
+}
+
+.all-projets{
+    margin-top: 40px;
+}
+
+.projet1{
+    width: auto;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.left{
+    transition: transform 0.3s ease-in-out;
+    margin-right: 40px;
+}
+
+.left img{
+    width: 500px;
+    height: 250px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+.left .lang-projets{
+    width: 500px;
+    border: 1px solid #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.left:hover{
+    transform: scale(1.1);
+}
+
+
+.projet2{
+    width: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.projet2 .right{
+    height: 20%;
+    border: 1px solid #fff;
+    padding: 20px;
+    margin-right: 40px;
+}
+
+.projet3{
+    width: auto;
+    display: flex;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.left:hover{
+    transform: scale(1.1);
+}
+
+.right{
+    height: 20%;
+    border: 1px solid #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.contact{
+    height: 100vh;
+    padding: 50px 70px;
+    color: #fff;
+}
+
+.contacts h1{
+    text-align: center;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #404040;
+}
